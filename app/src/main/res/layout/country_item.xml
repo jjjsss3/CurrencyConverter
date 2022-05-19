@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <ImageView
+        android:scaleType="fitXY"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/countryFlag"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/currencyCode"
+        android:textSize="23dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/countryName"
+        android:textSize="20dp"
+        android:layout_marginLeft="35dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginRight="20dp"/>
+</LinearLayout>
